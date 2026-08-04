@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E6AD" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA771C" />
+      <stop offset="100%" stop-color="#FDF7C3" />
+    </linearGradient>
+    <linearGradient id="maroon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A0E17" />
+      <stop offset="100%" stop-color="#220408" />
+    </linearGradient>
+  </defs>
+
+  {/* Background Shield */}
+  <rect width="512" height="512" rx="120" fill="url(#maroon-grad)" />
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="none" stroke="url(#gold-grad)" stroke-width="8" opacity="0.8" />
+  <rect x="36" y="36" width="440" height="440" rx="84" fill="none" stroke="url(#gold-grad)" stroke-width="2" stroke-dasharray="8 4" opacity="0.5" />
+
+  {/* Razor Sharp Vector AD Monogram */}
+  <text x="256" y="295" font-family="'Cinzel', 'Playfair Display', 'Didot', 'Georgia', serif" font-size="210" font-weight="900" fill="url(#gold-grad)" text-anchor="middle" letter-spacing="-6px">AD</text>
+
+  {/* Crisp English & Telugu Subtitles */}
+  <line x1="80" y1="340" x2="432" y2="340" stroke="url(#gold-grad)" stroke-width="3" opacity="0.8" />
+  <text x="256" y="395" font-family="'Cinzel', 'Montserrat', sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" letter-spacing="6px" text-anchor="middle">ANITHA DRESSES</text>
+  <text x="256" y="445" font-family="'Noto Serif Telugu', serif" font-size="22" font-weight="700" fill="url(#gold-grad)" letter-spacing="3px" text-anchor="middle">ఫ్యామిలీ షాపింగ్ మాల్ • ఒంగోలు</text>
+</svg>

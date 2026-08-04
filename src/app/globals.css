@@ -1,0 +1,46 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+Telugu:wght@400;600;700;900&family=Playfair+Display:wght@400;600;700;800;900&family=Ramabhadra&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #3A0810;
+  color: #FDFBF7;
+  font-family: 'Inter', 'Noto Serif Telugu', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Luxury Gold Metallic Text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #18181B;
+}
+::-webkit-scrollbar-thumb {
+  background: #801522;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Print Overrides */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
